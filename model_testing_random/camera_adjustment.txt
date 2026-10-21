@@ -1,0 +1,11 @@
+
+external_camera via webcam
+python src\inference.py --source 1 --weights "runs\classify\train\weights\best.pt"
+
+
+external_camera_weblink
+python src\inference.py --source "YOUR_CAMERA_STREAM_URL" --weights "runs\classify\train\weights\best.pt"
+
+
+defualt laptop camera
+C:\Users\jayco\AppData\Local\Programs\Python\Python38\python.exe src\inference.py --source 0 --weights "runs\classify\train\weights\best.pt"
